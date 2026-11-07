@@ -37,25 +37,15 @@ The work connects broad protein generation with experimentally tested molecular 
 
 *Cross-method computational screening results under the protocols described in the report (Fig. 9a).*
 
-### Experimental affinity distributions
+### Experimental binding across ten targets
 
 Across the six shared targets, Pallatom2 achieves lower median apparent K<sub>D</sub> values for **five of six targets** and lower minimum values for **four of six**.
 
-![Per-target apparent KD measurements for Pallatom2 and Claude, with individual active-design measurements and median values.](assets/kd_distribution.png)
-
-*Individual apparent K<sub>D</sub> measurements and target-level medians (report Fig. 12a).*
-
-![Lowest reported apparent KD for each target, comparing Pallatom2 with published methods.](assets/lowest_kd_comparison.png)
-
-*Lowest reported affinities across targets and methods (report Fig. 12b).*
-
-### Representative binding measurements
-
 The ten experimentally evaluated targets are BCMA, PD-L1, VEGF-A, SC2RBD, IL-7RA, BHRF1, TNFα, TrkA, IL-17A, and H1.
 
-![Predicted complexes and concentration-series BLI responses for representative binders across ten targets.](assets/experimental_binding.png)
+![Experimental affinity distributions (a), lowest reported affinities (b), and representative predicted complexes with concentration-series BLI responses (c), shown together in the original panel arrangement.](assets/experimental_binding_fig12_abc.png)
 
-*Representative designs and experimental binding responses across ten targets (report Fig. 12c).*
+*Experimental binding across ten targets: (a) apparent affinity distributions; (b) lowest reported affinities; (c) representative predicted complexes and BLI responses (report Fig. 12a-c).*
 
 ## From modeling to molecular design
 
