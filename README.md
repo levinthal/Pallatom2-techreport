@@ -69,8 +69,8 @@ Supporting experimental materials include BLI plots and disclosed active minibin
 
 ```bibtex
 @article{guan2026pallatom2,
-  title       = {{Pallatom2}: Navigating the {De Novo} Protein Universe
-                 with {Atom-to-Atom} Modeling},
+  title       = {Pallatom2: Navigating the De Novo Protein Universe
+                 with Atom-to-Atom Modeling},
   author      = {Guan, Jiawei and Ma, Rui and Lin, Susu and Wei, Yuting
                  and Jin, Jiaxin and Ye, Wenjun and Liu, Dechuan
                  and Wang, Haobo and Wu, Weikun},
