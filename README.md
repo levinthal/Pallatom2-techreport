@@ -68,16 +68,19 @@ Supporting experimental materials include BLI plots and disclosed active minibin
 ## Citation
 
 ```bibtex
-@techreport{guan2026pallatom2,
+@article{guan2026pallatom2,
   title       = {{Pallatom2}: Navigating the {De Novo} Protein Universe
                  with {Atom-to-Atom} Modeling},
   author      = {Guan, Jiawei and Ma, Rui and Lin, Susu and Wei, Yuting
                  and Jin, Jiaxin and Ye, Wenjun and Liu, Dechuan
                  and Wang, Haobo and Wu, Weikun},
-  institution = {Hangzhou Levinthal Biotechnology Co., Ltd.},
+  journal     = {bioRxiv},
+  elocation-id = {2026.11.10.765209},
   year        = {2026},
-  month       = nov,
-  url         = {https://github.com/levinthal/Pallatom2-techreport}
+  publisher   = {Cold Spring Harbor Laboratory},
+  doi         = {10.64898/2026.11.10.765209},
+  url         = {https://www.biorxiv.org/content/early/2026/11/15/2026.11.10.765209},
+  eprint      = {https://www.biorxiv.org/content/early/2026/11/15/2026.11.10.765209.full.pdf}
 }
 ```
 
