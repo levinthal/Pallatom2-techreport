@@ -62,6 +62,9 @@ Experimental affinities are apparent K<sub>D</sub> values measured by biolayer i
 
 **Technical report:** [Read the full report](./Pallatom2-Technical-Report.pdf).
 
+**Structures and metrics:** [Predicted complexes, binder monomers, and metrics for 234 minibinder designs](./structures/README.md).
+
+**Binder sequences:** [Sequences, expression labels, and reported affinities](./binder_sequences.csv) for 234 minibinder designs (177 expressed, 57 did not express). In the CSV, `binder_length_aa` is the length in amino acid residues, and `expressed` is 1 for expressed and 0 otherwise. `apparent_KD_nM` gives the apparent dissociation constant from Supplementary Table S5 and is blank when no value is reported.
 
 Supporting experimental materials include BLI plots and disclosed active minibinder sequences. **IL-7RA, BCMA, and nanobody design sequences are not disclosed.** Please refer to the report and its supplementary materials for detailed methods, measurements, and disclosure scope.
 

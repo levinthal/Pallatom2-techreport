@@ -1,0 +1,15 @@
+{
+  "source": "reported_metrics",
+  "af3_summary_available": false,
+  "pae_available": false,
+  "recorded_metrics": {
+    "min_interchain_pae_A": 0.84,
+    "rmsd_A": 1.9769,
+    "ptm_binder": 0.83,
+    "plddt": 94.9308
+  },
+  "structure_derived": {
+    "binder_chain_id": "C",
+    "binder_mean_ca_plddt": 98.1001
+  }
+}
