@@ -4,6 +4,11 @@
 
 Technical report and accompanying research materials from [Levinthal](https://github.com/levinthal).
 
+> [!IMPORTANT]
+> **Data release (November 26, 2026):** We have publicly released the sequences, predicted structures, and experimental expression outcomes for **all 234 minibinder candidates across eight targets**. This covers the experimental minibinder benchmark except **IL-7RA and BCMA**, and includes candidates that did not express.
+>
+> [Sequences and expression outcomes (CSV)](./binder_sequences.csv) · [Predicted complexes, monomers, and metrics](./structures/README.md)
+
 [Overview](#overview) · [Highlights](#highlights) · [From modeling to molecular design](#from-modeling-to-molecular-design) · [Report and data](#report-and-data) · [Citation](#citation)
 
 ## Overview
@@ -66,24 +71,22 @@ Experimental affinities are apparent K<sub>D</sub> values measured by biolayer i
 
 **Binder sequences:** [Sequences, expression labels, and reported affinities](./binder_sequences.csv) for 234 minibinder designs (177 expressed, 57 did not express). In the CSV, `binder_length_aa` is the length in amino acid residues, and `expressed` is 1 for expressed and 0 otherwise. `apparent_KD_nM` gives the apparent dissociation constant from Supplementary Table S5 and is blank when no value is reported.
 
-Supporting experimental materials include BLI plots and disclosed active minibinder sequences. **IL-7RA, BCMA, and nanobody design sequences are not disclosed.** Please refer to the report and its supplementary materials for detailed methods, measurements, and disclosure scope.
+See the report and its supplementary materials for BLI plots, detailed methods, and measurements. Nanobody design sequences remain undisclosed.
 
 ## Citation
 
+Guan J, Ma R, Lin S, Wei Y, Jin J, Ye W, Liu D, Wang H, Wu W. Pallatom2: Navigating the *De Novo* Protein Universe with Atom-to-Atom Modeling. *bioRxiv* [preprint]. 2026. [doi:10.64898/2026.11.10.765209](https://doi.org/10.64898/2026.11.10.765209).
+
 ```bibtex
-@article{guan2026pallatom2,
-  title       = {Pallatom2: Navigating the De Novo Protein Universe
-                 with Atom-to-Atom Modeling},
-  author      = {Guan, Jiawei and Ma, Rui and Lin, Susu and Wei, Yuting
-                 and Jin, Jiaxin and Ye, Wenjun and Liu, Dechuan
-                 and Wang, Haobo and Wu, Weikun},
-  journal     = {bioRxiv},
-  elocation-id = {2026.11.10.765209},
-  year        = {2026},
-  publisher   = {Cold Spring Harbor Laboratory},
-  doi         = {10.64898/2026.11.10.765209},
-  url         = {https://www.biorxiv.org/content/early/2026/11/15/2026.11.10.765209},
-  eprint      = {https://www.biorxiv.org/content/early/2026/11/15/2026.11.10.765209.full.pdf}
+@misc{guan2026pallatom2,
+  title        = {{Pallatom2}: Navigating the {De Novo} Protein Universe
+                  with {Atom-to-Atom} Modeling},
+  author       = {Guan, Jiawei and Ma, Rui and Lin, Susu and Wei, Yuting
+                  and Jin, Jiaxin and Ye, Wenjun and Liu, Dechuan
+                  and Wang, Haobo and Wu, Weikun},
+  howpublished = {bioRxiv preprint},
+  year         = {2026},
+  doi          = {10.64898/2026.11.10.765209}
 }
 ```
 
